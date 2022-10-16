@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <title>Search</title>
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+ </head>
+ <body>
+ <section class="section_container">
+     <div class="row_container>">
+         <p class="row">Search system</p>
+     </div>
+     <div class="google_container">
+         <form class="form_container" action="https://google.com/search">
+             <input class="search_label" type="text" name="q">
+             <div>
+                 <input class="btn" type="submit" value="Google Search">
+             </div>
+
+         </form>
+     </div>
+ </section>
+
+ </body>
+</html>
